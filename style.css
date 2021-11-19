@@ -1,0 +1,16 @@
+h3 {
+    font-size: 30px!important;
+    color: red;
+    letter-spacing: 4px;
+    font-weight: 300;
+   }
+  
+   canvas {
+      animation-name: doreamon;
+      animation-duration: 3s;
+      animation-iteration-count: infinite;
+   }
+   @keyframes doreamon{
+       from{box-shadow: 3px 3px 10px yellow;}
+       to{box-shadow: 3px 3px 10px purple;}
+   }
